@@ -1,19 +1,11 @@
-let cadena;
+let cadena = "Hola mundo";
 console.log(cadena);
 
-let bandera;
+let bandera = false;
 console.log(bandera);
 
 let indefinido;
 console.log(indefinido);
 
-let nulo;
+let nulo = null;
 console.log(nulo);
-/*Comprobando los tipos de datos
-Para comprobar el tipo de datos de un determinado valor, utilizamos el operador 'typeof'. Véase el siguiente ejemplo.
-
-console.log(typeof 'Asabeneh') // string
-console.log(typeof 5) // número
-console.log(typeof true ) // boolean
-console.log(typeof null) // tipo de objeto
-console.log(typeof undefined) // undefined*/
