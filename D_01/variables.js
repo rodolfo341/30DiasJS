@@ -1,11 +1,14 @@
-let cadena = "Hola mundo";
-console.log(cadena);
+let nombre = "Rodolfo";
+console.log(nombre);
 
-let bandera = false;
-console.log(bandera);
+let apellido = "Aravena";
+console.log(apellido);
 
-let indefinido;
-console.log(indefinido);
+let esta_casado = false;
+console.log(esta_casado);
 
-let nulo = null;
-console.log(nulo);
+let pais = "Chile";
+console.log(pais);
+
+let edad = 52;
+console.log(edad);
