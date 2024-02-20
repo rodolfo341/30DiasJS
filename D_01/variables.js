@@ -1,14 +1,12 @@
-let nombre = "Rodolfo";
+let nombre = "Rodolfo", apellido = "Aravena", esta_casado = false, pais = "Chile", edad = 52;
+
 console.log(nombre);
 
-let apellido = "Aravena";
 console.log(apellido);
 
-let esta_casado = false;
 console.log(esta_casado);
 
-let pais = "Chile";
 console.log(pais);
 
-let edad = 52;
 console.log(edad);
+
