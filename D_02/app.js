@@ -1,5 +1,7 @@
-/*
+
 // 01 Declare una variable llamada desafío y asígnele un valor inicial '30 días de JavaScript'.
+let desafio = "30 dias de js";
+
 // 02 Imprima la cadena en la consola del navegador usando console.log()
 // 03 Imprima la longitud de la cadena en la consola del navegador usando console.log()
 // 04 Cambie todos los caracteres de cadena a letras mayúsculas usando el método toUpperCase()
