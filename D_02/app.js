@@ -15,6 +15,10 @@ console.log(desafio.toUpperCase());
 console.log(desafio.toLowerCase());
 
 // 06 Corta (segmenta) la primera palabra de la cadena usando el método substr() o substring()
+console.log(desafio.substring(0,2));
+
+
+
 // 07 Corta la frase Days Of JavaScript de 30 Days Of JavaScript.
 // 08 Verifique si la cadena contiene una palabra Script usando el método includes()
 // 09 Divide la cadena en un array usando el método split()
