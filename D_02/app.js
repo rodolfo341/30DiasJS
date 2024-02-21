@@ -63,6 +63,10 @@ console.log(cadena.search("porque"));
 
 // 20 Use trim() para eliminar cualquier espacio en blanco final al principio y al final de una cadena. Por ejemplo, 
 //   '30 días de JavaScript'.
+let desafio2 = " 30 dias de JavaScript ";
+console.log(desafio2);
+console.log(desafio2.trim());
+
 // 21 Use el método startsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
 // 22 Use el método endsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
 // 23 Usa el método match() para encontrar todos los a en 30 días de JavaScript
