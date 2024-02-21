@@ -81,3 +81,4 @@ let dias = "30 dias de";
 console.log(dias.concat(" ","JavaScript"));
 
 // 25 Use el método repeat() para imprimir 30 días de JavaScript 2 veces
+console.log(desafio.repeat(2));
