@@ -27,6 +27,8 @@ console.log(desafio.includes("dias"));
 console.log(desafio.split());
 
 // 10 Divida la cadena 30 días de JavaScript en el espacio usando el método split()
+console.log(desafio.split(" "));
+
 // 11 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' divide la cadena en la coma y cámbiala a una matriz.
 // 12 Cambie 30 días de JavaScript a 30 días de Python usando el método replace().
 // 13 ¿Qué es el carácter en el índice 15 en la cadena '30 días de JavaScript'? Utilice el método charAt().
