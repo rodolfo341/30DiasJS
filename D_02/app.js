@@ -36,7 +36,10 @@ console.log(empresas.split(","));
 // 12 Cambie 30 días de JavaScript a 30 días de Python usando el método replace().
 console.log(desafio.replace("JS","Python"));
 
-// 13 ¿Qué es el carácter en el índice 15 en la cadena '30 días de JavaScript'? Utilice el método charAt().
+// 13 ¿Cual es el carácter en el índice 12 en la cadena '30 días de JS'? Utilice el método charAt().
+console.log(desafio.charAt(12));
+
+
 // 14 ¿Cuál es el código de carácter de J en la cadena '30 días de JavaScript' usando charCodeAt()
 // 15 Use indexOf para determinar la posición de la primera aparición de a en 30 días de JavaScript
 // 16 Utilice lastIndexOf para determinar la posición de la última aparición de a en 30 días de JavaScript.
