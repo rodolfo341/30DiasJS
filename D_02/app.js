@@ -55,6 +55,8 @@ console.log(cadena.lastIndexOf("porque"));
 
 // 18 Usa lastIndexOf para encontrar la posición de la última aparición de la palabra porque en la siguiente oración:
 //   'No puedes terminar una oración con porque porque porque es una conjunción'
+console.log(desafio.lastIndexOf("porque"));
+
 // 19 Usa buscar para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:
 //   'No puedes terminar una oración con porque porque porque es una conjunción'
 // 20 Use trim() para eliminar cualquier espacio en blanco final al principio y al final de una cadena. Por ejemplo, 
