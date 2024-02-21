@@ -9,6 +9,8 @@ console.log(desafio);
 console.log("longitud de la ladena " + " \"" + desafio + "\"" + " es: " + desafio.length);
 
 // 04 Cambie todos los caracteres de cadena a letras mayúsculas usando el método toUpperCase()
+console.log(desafio.toUpperCase());
+
 // 05 Cambie todos los caracteres de la cadena a letras minúsculas usando el método toLowerCase()
 // 06 Corta (segmenta) la primera palabra de la cadena usando el método substr() o substring()
 // 07 Corta la frase Days Of JavaScript de 30 Days Of JavaScript.
