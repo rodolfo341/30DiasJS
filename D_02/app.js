@@ -1,6 +1,6 @@
 
 // 01 Declare una variable llamada desafío y asígnele un valor inicial '30 días de JavaScript'.
-let desafio = "30 dias de js";
+let desafio = "30 dias de JS";
 
 // 02 Imprima la cadena en la consola del navegador usando console.log()
 console.log(desafio);
@@ -12,6 +12,8 @@ console.log("longitud de la ladena " + " \"" + desafio + "\"" + " es: " + desafi
 console.log(desafio.toUpperCase());
 
 // 05 Cambie todos los caracteres de la cadena a letras minúsculas usando el método toLowerCase()
+console.log(desafio.toLowerCase());
+
 // 06 Corta (segmenta) la primera palabra de la cadena usando el método substr() o substring()
 // 07 Corta la frase Days Of JavaScript de 30 Days Of JavaScript.
 // 08 Verifique si la cadena contiene una palabra Script usando el método includes()
