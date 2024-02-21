@@ -46,6 +46,8 @@ console.log(desafio.charCodeAt(11));
 console.log(desafio.indexOf("a"));
 
 // 16 Utilice lastIndexOf para determinar la posición de la última aparición de a en 30 días de JavaScript.
+console.log(desafio.lastIndexOf("a"));
+
 // 17 Usa indexOf para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:
 //   'No puedes   terminar una oración con porque porque porque es una conjunción'
 // 18 Usa lastIndexOf para encontrar la posición de la última aparición de la palabra porque en la siguiente oración:
