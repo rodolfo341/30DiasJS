@@ -23,8 +23,9 @@ console.log(desafio.split(" "));
 // 08 Verifique si la cadena contiene una palabra dias usando el método includes()
 console.log(desafio.includes("dias"));
 
-
 // 09 Divide la cadena en un array usando el método split()
+console.log(desafio.split());
+
 // 10 Divida la cadena 30 días de JavaScript en el espacio usando el método split()
 // 11 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' divide la cadena en la coma y cámbiala a una matriz.
 // 12 Cambie 30 días de JavaScript a 30 días de Python usando el método replace().
