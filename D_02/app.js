@@ -3,6 +3,7 @@
 let desafio = "30 dias de js";
 
 // 02 Imprima la cadena en la consola del navegador usando console.log()
+console.log(desafio);
 // 03 Imprima la longitud de la cadena en la consola del navegador usando console.log()
 // 04 Cambie todos los caracteres de cadena a letras mayúsculas usando el método toUpperCase()
 // 05 Cambie todos los caracteres de la cadena a letras minúsculas usando el método toLowerCase()
