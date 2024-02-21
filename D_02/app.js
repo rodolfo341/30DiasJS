@@ -74,5 +74,7 @@ console.log(desafio.startsWith("30"));
 console.log(desafio.endsWith("JavaScript"));
 
 // 23 Usa el método match() para encontrar todos los a en 30 días de JavaScript
+console.log(desafio.match("a"));
+
 // 24 Use concat() y fusione '30 días de' y 'JavaScript' en una sola cadena, '30 días de JavaScript'
 // 25 Use el método repeat() para imprimir 30 días de JavaScript 2 veces
