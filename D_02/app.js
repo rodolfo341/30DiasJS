@@ -39,8 +39,9 @@ console.log(desafio.replace("JS","Python"));
 // 13 ¿Cual es el carácter en el índice 12 en la cadena '30 días de JS'? Utilice el método charAt().
 console.log(desafio.charAt(12));
 
-
 // 14 ¿Cuál es el código de carácter de J en la cadena '30 días de JavaScript' usando charCodeAt()
+console.log(desafio.charCodeAt(11));
+
 // 15 Use indexOf para determinar la posición de la primera aparición de a en 30 días de JavaScript
 // 16 Utilice lastIndexOf para determinar la posición de la última aparición de a en 30 días de JavaScript.
 // 17 Usa indexOf para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:
