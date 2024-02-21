@@ -4,7 +4,10 @@ let desafio = "30 dias de js";
 
 // 02 Imprima la cadena en la consola del navegador usando console.log()
 console.log(desafio);
-// 03 Imprima la longitud de la cadena en la consola del navegador usando console.log()
+
+// 03 Imprima la longitud 7de la cadena en la consola del navegador usando console.log()
+console.log("longitud de la ladena " + " \"" + desafio + "\"" + " es: " + desafio.length);
+
 // 04 Cambie todos los caracteres de cadena a letras mayúsculas usando el método toUpperCase()
 // 05 Cambie todos los caracteres de la cadena a letras minúsculas usando el método toLowerCase()
 // 06 Corta (segmenta) la primera palabra de la cadena usando el método substr() o substring()
