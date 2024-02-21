@@ -68,6 +68,8 @@ console.log(desafio2);
 console.log(desafio2.trim());
 
 // 21 Use el método startsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
+console.log(desafio.startsWith("30"));
+
 // 22 Use el método endsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
 // 23 Usa el método match() para encontrar todos los a en 30 días de JavaScript
 // 24 Use concat() y fusione '30 días de' y 'JavaScript' en una sola cadena, '30 días de JavaScript'
