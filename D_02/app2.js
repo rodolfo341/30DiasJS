@@ -24,8 +24,8 @@ console.log(numPF);
 console.log("python".includes("on"));
 console.log("jerga".includes("on"));
 
-
 // 06 Espero que este curso no esté lleno de jerga. Compruebe si jargon está en la oración.
+console.log("Espero que este curso no esté lleno de jerga.".includes("jargon"));
 
 // 07 Genere un número aleatorio entre 0 y 100 inclusive.
 
