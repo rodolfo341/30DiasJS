@@ -21,6 +21,9 @@ console.log(10);
 console.log(numPF);
 
 // 05 Verifique si 'on' se encuentra tanto en Python como en la jerga
+console.log("python".includes("on"));
+console.log("jerga".includes("on"));
+
 
 // 06 Espero que este curso no esté lleno de jerga. Compruebe si jargon está en la oración.
 
