@@ -28,11 +28,11 @@ console.log("jerga".includes("on"));
 console.log("Espero que este curso no esté lleno de jerga.".includes("jargon"));
 
 // 07 Genere un número aleatorio entre 0 y 100 inclusive.
-let numAleatorio = Math.random()
-let numeroCienDecimal = numAleatorio * 101
-console.log(numeroCienDecimal)
-let numeroHastaCien = Math.floor(numeroCienDecimal)
-console.log(numeroHastaCien)
+// Generar un número aleatorio entre 1 y 100
+for (i=1; i<=100; i++){
+    let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+    console.log(numeroAleatorio);
+}
 
 
 
