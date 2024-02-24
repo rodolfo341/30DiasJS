@@ -32,11 +32,9 @@ console.log("Espero que este curso no esté lleno de jerga.".includes("jargon"))
 let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 console.log(numeroAleatorio);
 
-
-
-
-
 // 08 Genere un número aleatorio entre 50 y 100 inclusive.
+let randomCincuentaACien = Math.floor(Math.random() * 51) + 50;
+console.log(randomCincuentaACien);
 
 // 09 Genere un número aleatorio entre 0 y 255 inclusive.
 
