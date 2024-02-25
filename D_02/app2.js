@@ -41,8 +41,7 @@ let randomDosCincuentaYCinco = Math.floor(Math.random() * 256);
 console.log(randomDosCincuentaYCinco);
 
 // 10 Acceda a los caracteres de la cadena 'JavaScript' utilizando un número aleatorio.
-let letraRandom = Math.floor(Math.random() * 9) + 1;
-console.log('JavaScript'.charAt(letraRandom));
+console.log('JavaScript'.charAt(Math.floor(Math.random() * 9) + 1));
 
 // 11 Use console.log() y caracteres de escape para imprimir el siguiente patrón.
 //        1 1 1 1 1
@@ -50,6 +49,11 @@ console.log('JavaScript'.charAt(letraRandom));
 //        3 1 3 9 27
 //        4 1 4 16 64
 //        5 1 5 25 125
+console.log("1 1 1 1 1")
+console.log("2 1 2 4 8")
+console.log("3 1 3 9 27")
+console.log("4 1 4 16 64")
+console.log("5 1 5 25 125")
 
 // 12 Usa substr para separar la frase porque porque porque de la siguiente oración:
 //    'No puedes terminar una oración con porque porque porque es una conjunción'
