@@ -37,6 +37,8 @@ let randomCincuentaACien = Math.floor(Math.random() * 51) + 50;
 console.log(randomCincuentaACien);
 
 // 09 Genere un número aleatorio entre 0 y 255 inclusive.
+let randomDosCincuentaYCinco = Math.floor(Math.random() * 256);
+console.log(randomDosCincuentaYCinco);
 
 // 10 Acceda a los caracteres de la cadena 'JavaScript' utilizando un número aleatorio.
 
@@ -50,5 +52,38 @@ console.log(randomCincuentaACien);
 // 12 Usa substr para separar la frase porque porque porque de la siguiente oración:
 //    'No puedes terminar una oración con porque porque porque es una conjunción'
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+https://www.xvideos.es/video32668203/asiatico_tren_se_burlan_de
+https://www.xvideos.es/video42877279/hermosa_asiatica_follada_en_el_tren
+ */
 
 
