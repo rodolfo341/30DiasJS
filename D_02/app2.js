@@ -41,6 +41,8 @@ let randomDosCincuentaYCinco = Math.floor(Math.random() * 256);
 console.log(randomDosCincuentaYCinco);
 
 // 10 Acceda a los caracteres de la cadena 'JavaScript' utilizando un número aleatorio.
+let letraRandom = Math.floor(Math.random() * 9) + 1;
+console.log('JavaScript'.charAt(letraRandom));
 
 // 11 Use console.log() y caracteres de escape para imprimir el siguiente patrón.
 //        1 1 1 1 1
