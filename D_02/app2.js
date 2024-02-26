@@ -57,6 +57,10 @@ console.log("5 1 5 25 125")
 
 // 12 Usa substr para separar la frase porque porque porque de la siguiente oración:
 //    'No puedes terminar una oración con porque porque porque es una conjunción'
+let oracion = 'No puedes terminar una oración con porque porque porque es una conjunción'
+console.log(oracion.substring(35,55))
+
+
 
 
 
