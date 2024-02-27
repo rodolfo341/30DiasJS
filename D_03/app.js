@@ -81,7 +81,20 @@ console.log('python'.length)
 console.log('jargo'.length)
 console.log('python'.length == 'jargo'.length )
 
+// 06 Calcule primero el resultado de las siguientes expresiones sin usar console.log(). 
+//    Después de decidir el resultado, confirmelo usando console.log()
 
+//         01 4 > 3 && 10 < 12
+//         02 4 > 3 && 10 > 12
+//         03 4 > 3 || 10 < 12
+//         04 4 > 3 || 10 > 12
+//         05 !(4 > 3)
+//         06 !(4 < 3)
+//         07 !(false)
+//         08 !(4 > 3 && 10 < 12)
+//         09 !(4 > 3 && 10 > 12)
+//         10 !(4 === '4')
+//         11 No hay 'on' tanto en dragon como en python
 
 
 
