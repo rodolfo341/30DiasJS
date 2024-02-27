@@ -108,4 +108,13 @@ console.log( !(4 === '4' ))
 console.log('dragon'.includes('on'))
 console.log('python'.includes('on'))
 
+// 07 Utilice el objeto Date para realizar las siguientes actividades
+//          ¿Qué año es hoy?
+//          ¿Qué mes es hoy con un número?
+//          ¿Qué fecha es hoy?
+//          ¿Qué día es hoy con un número?
+//          ¿Cuál es la hora actual?
+//          ¿Cuántos minutos hay actualmente?
+//          Averigüe el número de segundos transcurridos desde el 1 de enero de 1970 hasta ahora.
+
 
