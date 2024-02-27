@@ -66,5 +66,20 @@ console.log(valorFalso3)
 // 10 4 == '4'
 // 11 4 === '4'
 // 12 Encuentre la longitud de Python y jargon y haga una declaración de comparación falsa.
+console.log( 4 > 3 )
+console.log( 4 >= 3 )
+console.log( 4 < 3 )
+console.log( 4 <= 3 )
+console.log( 4 == 4 )
+console.log( 4 === 4 )
+console.log( 4 != 4 )
+console.log( 4 !== 4 )
+console.log( 4 != '4' )
+console.log( 4 == '4' )
+console.log( 4 === '4' )
+console.log('python'.length)
+console.log('jargo'.length)
+console.log('python'.length == 'jargo'.length )
+
 
 
