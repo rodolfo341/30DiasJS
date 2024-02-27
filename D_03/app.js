@@ -28,3 +28,8 @@ console.log(typeof year)
 //  02  Verifique si typeof '10' es igual a 10
 console.log(typeof 10)
 console.log(typeof '10')
+
+// 03 Verifique si parseInt('9.8') es igual a 10
+
+
+
