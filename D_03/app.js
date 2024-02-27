@@ -24,3 +24,5 @@ console.log(typeof city)
 console.log(typeof age)
 console.log(typeof isMarried)
 console.log(typeof year)
+
+//  02  Verifique si typeof '10' es igual a 10
