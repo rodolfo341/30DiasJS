@@ -95,6 +95,17 @@ console.log('python'.length == 'jargo'.length )
 //         09 !(4 > 3 && 10 > 12)
 //         10 !(4 === '4')
 //         11 No hay 'on' tanto en dragon como en python
-
+console.log( 4 > 3 && 10 < 12 )
+console.log( 4 > 3 && 10 > 12 )
+console.log( 4 > 3 || 10 < 12 )
+console.log( 4 > 3 || 10 > 12 )
+console.log( !(4 > 3) )
+console.log( !(4 < 3) )
+console.log( !(false) )
+console.log( !(4 > 3 && 10 < 12) )
+console.log( !(4 > 3 && 10 > 12) )
+console.log( !(4 === '4' ))
+console.log('dragon'.includes('on'))
+console.log('python'.includes('on'))
 
 
