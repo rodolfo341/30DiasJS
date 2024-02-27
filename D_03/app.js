@@ -109,12 +109,15 @@ console.log('dragon'.includes('on'))
 console.log('python'.includes('on'))
 
 // 07 Utilice el objeto Date para realizar las siguientes actividades
-//          ¿Qué año es hoy?
-//          ¿Qué mes es hoy con un número?
-//          ¿Qué fecha es hoy?
-//          ¿Qué día es hoy con un número?
-//          ¿Cuál es la hora actual?
-//          ¿Cuántos minutos hay actualmente?
-//          Averigüe el número de segundos transcurridos desde el 1 de enero de 1970 hasta ahora.
+//         01 ¿Qué año es hoy?
+//         02 ¿Qué mes es hoy con un número?
+//         03 ¿Qué fecha es hoy?
+//         04 ¿Qué día es hoy con un número?
+//         05 ¿Cuál es la hora actual?
+//         06 ¿Cuántos minutos hay actualmente?
+//         07 Averigüe el número de segundos transcurridos desde el 1 de enero de 1970 hasta ahora.
+
+let fecha = new Date()
+console.log(fecha.getFullYear())
 
 
