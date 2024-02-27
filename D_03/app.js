@@ -52,4 +52,19 @@ console.log(valorFalso1)
 console.log(valorFalso2)
 console.log(valorFalso3)
 
+// 05 Calcule primero el resultado de la siguiente expresión de comparación sin usar console.log(). 
+//    Después de decidir el resultado, confirmelo usando console.log()
+// 01 4 > 3
+// 02 4 >= 3
+// 03 4 < 3
+// 04 4 <= 3
+// 05 4 == 4
+// 06 4 === 4
+// 07 4 != 4
+// 08 4 !== 4
+// 09 4 != '4'
+// 10 4 == '4'
+// 11 4 === '4'
+// 12 Encuentre la longitud de Python y jargon y haga una declaración de comparación falsa.
+
 
