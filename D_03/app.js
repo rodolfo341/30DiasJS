@@ -132,3 +132,13 @@ console.log(fecha.getMinutes())
 
 console.log(fecha.getTime())
 console.log(Date.now())
+
+/**
+ * Nivel 2
+ */
+
+// 01 Escriba un script que solicite al usuario que ingrese:
+//          la base y la 
+//          altura del triángulo y 
+//    calcule el área de un triángulo (área = 0,5 x b x h).
+
