@@ -38,5 +38,18 @@ console.log(typeof parseInt(num))
 //      Escriba tres declaraciones de JavaScript que proporcionen un valor verdadero.
 //      Escriba tres declaraciones de JavaScript que proporcionen un valor falso.
 
+let valorVerdadero1 = true
+let valorVerdadero2 = ( 10 == 10 )
+let valorVerdadero3 = ( 2 > 1 )
+console.log(valorVerdadero1)
+console.log(valorVerdadero2)
+console.log(valorVerdadero3)
+
+let valorFalso1 = false
+let valorFalso2 = ( 10 != 10 )
+let valorFalso3 = ( 2 < 1 )
+console.log(valorFalso1)
+console.log(valorFalso2)
+console.log(valorFalso3)
 
 
