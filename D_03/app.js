@@ -30,6 +30,8 @@ console.log(typeof 10)
 console.log(typeof '10')
 
 // 03 Verifique si parseInt('9.8') es igual a 10
-
+let num = '10'
+console.log(typeof num)
+console.log(typeof parseInt(num))
 
 
