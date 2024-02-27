@@ -120,4 +120,6 @@ console.log('python'.includes('on'))
 let fecha = new Date()
 console.log(fecha.getFullYear())
 
+console.log(fecha.getMonth() + 1 )
+
 
