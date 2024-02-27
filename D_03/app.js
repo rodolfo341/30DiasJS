@@ -34,4 +34,9 @@ let num = '10'
 console.log(typeof num)
 console.log(typeof parseInt(num))
 
+// 04 Verifique cualquier valor booleano true o false.
+//      Escriba tres declaraciones de JavaScript que proporcionen un valor verdadero.
+//      Escriba tres declaraciones de JavaScript que proporcionen un valor falso.
+
+
 
