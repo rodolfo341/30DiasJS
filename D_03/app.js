@@ -122,4 +122,6 @@ console.log(fecha.getFullYear())
 
 console.log(fecha.getMonth() + 1 )
 
+console.log(fecha.getDate())
+
 
