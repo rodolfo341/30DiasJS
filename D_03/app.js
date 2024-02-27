@@ -124,4 +124,8 @@ console.log(fecha.getMonth() + 1 )
 
 console.log(fecha.getDate())
 
+console.log(fecha.getDay())
+
+
+
 
