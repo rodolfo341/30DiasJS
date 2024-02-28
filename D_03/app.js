@@ -145,5 +145,10 @@ let base = prompt('base: ')
 let alto = prompt('alto: ')
 console.log('area = ' + ( ( base * alto ) / 2 ) )
 
-
+// 02 Escriba un script que solicite al usuario que ingrese 
+//             el lado a, 
+//             el lado b y 
+//             el lado c 
+//     del triángulo y 
+//     calcule el perímetro del triángulo (perímetro = a + b + c)
 
