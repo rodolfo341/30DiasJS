@@ -141,8 +141,11 @@ console.log(Date.now())
 //          la base y la 
 //          altura del triángulo y 
 //    calcule el área de un triángulo (área = 0,5 x b x h).
+
 let base = prompt('base: ')
 let alto = prompt('alto: ')
+base = parseFloat(base);
+alto = parseFloat(alto);
 console.log('area = ' + ( ( base * alto ) / 2 ) )
 
 // 02 Escriba un script que solicite al usuario que ingrese 
@@ -151,4 +154,14 @@ console.log('area = ' + ( ( base * alto ) / 2 ) )
 //             el lado c 
 //     del triángulo y 
 //     calcule el perímetro del triángulo (perímetro = a + b + c)
+
+let ladoA = prompt('Lado a:');
+let ladoB = prompt('Lado b:');
+let ladoC = prompt('Lado c:');
+
+ladoA = parseFloat(ladoA);
+ladoB = parseFloat(ladoB);
+ladoC = parseFloat(ladoC);
+const perimetro = ladoA + ladoB + ladoC;
+console.log('Perímetro = ' + perimetro);
 
