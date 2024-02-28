@@ -141,4 +141,9 @@ console.log(Date.now())
 //          la base y la 
 //          altura del triángulo y 
 //    calcule el área de un triángulo (área = 0,5 x b x h).
+let base = prompt('base: ')
+let alto = prompt('alto: ')
+console.log('area = ' + ( ( base * alto ) / 2 ) )
+
+
 
