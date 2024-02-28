@@ -142,11 +142,13 @@ console.log(Date.now())
 //          altura del triángulo y 
 //    calcule el área de un triángulo (área = 0,5 x b x h).
 
-let base = prompt('base: ')
-let alto = prompt('alto: ')
-base = parseFloat(base);
-alto = parseFloat(alto);
-console.log('area = ' + ( ( base * alto ) / 2 ) )
+
+
+// let base = prompt('base: ')
+// let alto = prompt('alto: ')
+// base = parseFloat(base);
+// alto = parseFloat(alto);
+// console.log('area = ' + ( ( base * alto ) / 2 ) )
 
 // 02 Escriba un script que solicite al usuario que ingrese 
 //             el lado a, 
@@ -155,17 +157,28 @@ console.log('area = ' + ( ( base * alto ) / 2 ) )
 //     del triángulo y 
 //     calcule el perímetro del triángulo (perímetro = a + b + c)
 
-let ladoA = prompt('Lado a:');
-let ladoB = prompt('Lado b:');
-let ladoC = prompt('Lado c:');
+// let ladoA = prompt('Lado a:');
+// let ladoB = prompt('Lado b:');
+// let ladoC = prompt('Lado c:');
 
-ladoA = parseFloat(ladoA);
-ladoB = parseFloat(ladoB);
-ladoC = parseFloat(ladoC);
-const perimetro = ladoA + ladoB + ladoC;
-console.log('Perímetro = ' + perimetro);
+// ladoA = parseFloat(ladoA);
+// ladoB = parseFloat(ladoB);
+// ladoC = parseFloat(ladoC);
+// const perimetro = ladoA + ladoB + ladoC;
+// console.log('Perímetro = ' + perimetro);
 
 // 03 Obtenga el largo y el ancho usando prompt y calcule 
 //     el área del   rectángulo (área = largo x ancho y el 
 //     perímetro del rectángulo (perímetro = 2 x (largo + ancho))
+ area = prompt("area: ")
+ area = parseFloat(area)
+ largo = prompt("largo: ")
+ largo = parseFloat(largo)
+ ancho = prompt("ancho: ")
+ ancho = parseFloat(ancho)
+
+ area = largo * ancho
+ perimetro = 2 * ( largo * ancho )
+ console.log("area: " + area)
+ console.log("perimetro: " + perimetro)
 
