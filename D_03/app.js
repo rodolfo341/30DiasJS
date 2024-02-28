@@ -165,3 +165,7 @@ ladoC = parseFloat(ladoC);
 const perimetro = ladoA + ladoB + ladoC;
 console.log('Perímetro = ' + perimetro);
 
+// 03 Obtenga el largo y el ancho usando prompt y calcule 
+//     el área del   rectángulo (área = largo x ancho y el 
+//     perímetro del rectángulo (perímetro = 2 x (largo + ancho))
+
