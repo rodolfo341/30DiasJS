@@ -170,15 +170,25 @@ console.log(Date.now())
 // 03 Obtenga el largo y el ancho usando prompt y calcule 
 //     el área del   rectángulo (área = largo x ancho y el 
 //     perímetro del rectángulo (perímetro = 2 x (largo + ancho))
- area = prompt("area: ")
- area = parseFloat(area)
- largo = prompt("largo: ")
- largo = parseFloat(largo)
- ancho = prompt("ancho: ")
- ancho = parseFloat(ancho)
+//  area = prompt("area: ")
+//  area = parseFloat(area)
+//  largo = prompt("largo: ")
+//  largo = parseFloat(largo)
+//  ancho = prompt("ancho: ")
+//  ancho = parseFloat(ancho)
 
- area = largo * ancho
- perimetro = 2 * ( largo * ancho )
- console.log("area: " + area)
- console.log("perimetro: " + perimetro)
+//  area = largo * ancho
+//  perimetro = 2 * ( largo * ancho )
+//  console.log("area: " + area)
+//  console.log("perimetro: " + perimetro)
 
+//  04 Obtenga el radio usando prompt y calcule 
+//             el área de un círculo (área = pi x r x r) y 
+//             la circunferencia de un círculo (c = 2 x pi x r) 
+//     donde pi = 3.14.
+
+let r = prompt("radio: ")
+let area = Math.PI * r * r
+let circ = 2 * Math.PI * r
+console.log("area: " + area)
+console.log("ciucunferencia: " + circ)
