@@ -214,3 +214,12 @@ let y2 = 10;
 const pendiente = (y2 - y1) / (x2 - x1);
 console.log('La pendiente es: ' + pendiente);
 
+// 07 Compare la pendiente de las dos preguntas anteriores.
+// 08 Calcula el valor de 
+//     y (y = x2 + 6x + 9). 
+// Trate de usar diferentes valores de x y 
+// averigüe en qué valor de x y es 0.
+
+let x = 1
+let y = 2 * x + 6 * x + 9
+console.log(y)
