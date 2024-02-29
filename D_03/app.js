@@ -204,4 +204,12 @@ console.log('Pendiente: ' + m);
 console.log('Intersección X: ' + x_interseccion);
 console.log('Intersección Y: ' + y_interseccion);
 
+// 06 La pendiente es m = (y2-y1)/(x2-x1). 
+//  Encuentra la pendiente entre el punto (2, 2) y el punto (6,10)
 
+let x1 = 2;
+let y1 = 2;
+let x2 = 6;
+let y2 = 10;
+const pendiente = (y2 - y1) / (x2 - x1);
+console.log('La pendiente es: ' + pendiente);
