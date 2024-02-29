@@ -187,8 +187,10 @@ console.log(Date.now())
 //             la circunferencia de un círculo (c = 2 x pi x r) 
 //     donde pi = 3.14.
 
-let r = prompt("radio: ")
-let area = Math.PI * r * r
-let circ = 2 * Math.PI * r
-console.log("area: " + area)
-console.log("ciucunferencia: " + circ)
+// let r = prompt("radio: ")
+// let area = Math.PI * r * r
+// let circ = 2 * Math.PI * r
+// console.log("area: " + area)
+// console.log("ciucunferencia: " + circ)
+
+// 05 Calcule la pendiente, la intersección X y la intersección Y de y = 2x -2
