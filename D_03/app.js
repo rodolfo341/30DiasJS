@@ -194,3 +194,14 @@ console.log(Date.now())
 // console.log("ciucunferencia: " + circ)
 
 // 05 Calcule la pendiente, la intersección X y la intersección Y de y = 2x -2
+// Definir la ecuación de la línea y = mx + b
+let m = 2; 
+let b = -2; 
+let x_interseccion = (0 - b) / m;
+let y_interseccion = m * 0 + b;
+
+console.log('Pendiente: ' + m);
+console.log('Intersección X: ' + x_interseccion);
+console.log('Intersección Y: ' + y_interseccion);
+
+
