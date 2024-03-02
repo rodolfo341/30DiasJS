@@ -289,8 +289,8 @@
 //      si no dígale que espere una cierta cantidad de años.
 
 
-// Introduzca el año de nacimiento: 1995
-// Tienes 25 años. Tienes la edad suficiente para conducir.
+//  Introduzca el año de nacimiento: 1995
+//  Tienes 25 años. Tienes la edad suficiente para conducir.
 
 // Introduzca el año de nacimiento: 2005
 // Tienes 15 años. Podrás conducir después de 3 años.
@@ -302,10 +302,14 @@
 //     console.log("debe esperar " + ( 18 - ( 2024 - anioNacimiento )))
 // }
 
-// Escriba un script que solicite por prompt al usuario que ingrese el número de años. 
-// Calcular el número de segundos que puede vivir una persona. 
-// Supongamos que alguien vive solo cien años
+// 14 Escriba un script que solicite por prompt al usuario que ingrese el número de años. 
+//      Calcular el número de segundos que puede vivir una persona. 
+//      Supongamos que alguien vive solo cien años
 
 // Ingrese el número de años de vida: 100
 //  Viviste 3153600000 segundos.
+
+let edad = prompt('Ingrese el numero de años de vida: ')
+let segundos = edad * 365 * 24 * 60 * 60
+console.log('Viviste ' + segundos + ' segundos' )
 
