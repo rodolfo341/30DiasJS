@@ -294,3 +294,18 @@
 
 // Introduzca el año de nacimiento: 2005
 // Tienes 15 años. Podrás conducir después de 3 años.
+
+// let anioNacimiento = prompt("introdusca el año de nacimiento: ")
+// if ( ( 2024 - anioNacimiento ) >= 18 ) {
+//     console.log("Tienes la edad suficiente para conducir.")
+// } else {
+//     console.log("debe esperar " + ( 18 - ( 2024 - anioNacimiento )))
+// }
+
+// Escriba un script que solicite por prompt al usuario que ingrese el número de años. 
+// Calcular el número de segundos que puede vivir una persona. 
+// Supongamos que alguien vive solo cien años
+
+// Ingrese el número de años de vida: 100
+//  Viviste 3153600000 segundos.
+
