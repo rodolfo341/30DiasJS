@@ -220,6 +220,14 @@ console.log('La pendiente es: ' + pendiente);
 // Trate de usar diferentes valores de x y 
 // averigüe en qué valor de x y es 0.
 
-let x = 1
-let y = 2 * x + 6 * x + 9
-console.log(y)
+let equis = 1
+let yGriega = 2 * equis + 6 * equis + 9
+console.log(yGriega)
+
+// 08 Calcula el valor de y (y = x2 + 6x + 9). 
+// Trate de usar diferentes valores de x y averigüe en qué valor de x y es 0.
+
+equis = -1;
+yGriega = equis * 2 + 6 * equis + 9
+console.log(yGriega)
+
