@@ -274,12 +274,23 @@
 
 // 12 Declare dos variables miEdad y tuEdad y asignarles los valores iniciales y myAge y yourAge.
 
-let miEdad = 250
-let tuEdad = 25
-if ( miEdad > tuEdad ) {
-    console.log("soy " + ( miEdad - tuEdad ) + "años mayor que tu")
-} else if ( tuEdad > miEdad ) {
-    console.log("eres " + ( tuEdad - miEdad ) + "años mayor que yo")
-} else {
-    console.log("tenemos la misma edad")
-}
+// let miEdad = 250
+// let tuEdad = 25
+// if ( miEdad > tuEdad ) {
+//     console.log("soy " + ( miEdad - tuEdad ) + "años mayor que tu")
+// } else if ( tuEdad > miEdad ) {
+//     console.log("eres " + ( tuEdad - miEdad ) + "años mayor que yo")
+// } else {
+//     console.log("tenemos la misma edad")
+// }
+
+// 13 Usando prompt, obtenga el año en que nació el usuario y, 
+//      si el usuario tiene 18 años o más, permita que el usuario conduzca, 
+//      si no dígale que espere una cierta cantidad de años.
+
+
+// Introduzca el año de nacimiento: 1995
+// Tienes 25 años. Tienes la edad suficiente para conducir.
+
+// Introduzca el año de nacimiento: 2005
+// Tienes 15 años. Podrás conducir después de 3 años.
