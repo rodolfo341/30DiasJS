@@ -231,3 +231,17 @@ equis = -1;
 yGriega = equis * 2 + 6 * equis + 9
 console.log(yGriega)
 
+// 09 Escriba un script con prompt 
+// que solicite al usuario que ingrese 
+//          las horas y 
+//          la tarifa por hora. 
+// ¿Calcular el salario de la persona?
+
+// Ingrese horas: 40
+// Introduce la tarifa por hora: 28
+// Su ganancia semanal es 1120
+
+let horas = prompt('Ingrese horas:')
+let tarifa = prompt('Introduce la tarifa por hora:')
+console.log('Su ganancia semanal es ' + ( horas * tarifa ))
+
