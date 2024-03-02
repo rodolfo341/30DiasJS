@@ -248,11 +248,17 @@
 // 10 Si la longitud de su nombre es mayor que 7, 
 //      diga que su nombre es largo; de lo contrario, diga que su nombre es corto.
 
-let nombre = "rodolfo"
-if ( nombre.length > 7) {
-    console.log("su nombre es largo")
-} else {
-    console.log("su nombre es corto")
-}
+// let nombre = "rodolfo"
+// if ( nombre.length > 7) {
+//     console.log("su nombre es largo")
+// } else {
+//     console.log("su nombre es corto")
+// }
 
+// 11 Compare la longitud de su nombre y la longitud de su apellido y debería obtener este resultado.
+
+// let firstName = "Asabeneh";
+// let lastName = "Yetayeh";
+
+// Tu primer nombre, Asabeneh, es más largo que tu apellido, Yetayeh.
 
