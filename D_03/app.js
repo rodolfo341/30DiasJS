@@ -245,3 +245,7 @@ let horas = prompt('Ingrese horas:')
 let tarifa = prompt('Introduce la tarifa por hora:')
 console.log('Su ganancia semanal es ' + ( horas * tarifa ))
 
+// 10 Si la longitud de su nombre es mayor que 7, 
+//      diga que su nombre es largo; de lo contrario, diga que su nombre es corto.
+
+
