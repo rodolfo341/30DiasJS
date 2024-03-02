@@ -262,3 +262,12 @@
 
 // Tu primer nombre, Asabeneh, es más largo que tu apellido, Yetayeh.
 
+let nombre = "Rodolfo"
+let apellido = "Aravena"
+if ( nombre.length > apellido.length ){
+    console.log("Tu nombre es, " + nombre + " es mas largo que tu apellido, " + apellido)
+} else if ( apellido.length > nombre.length ){
+    console.log("Tu apellido es, " + apellido + " es mas largo que tu nombre, " + nombre)
+} else {
+    console.log("Tu nombre, " + nombre + " es igual a tu apellido, " + apellido)
+}
