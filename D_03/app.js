@@ -273,3 +273,13 @@
 // }
 
 // 12 Declare dos variables miEdad y tuEdad y asignarles los valores iniciales y myAge y yourAge.
+
+let miEdad = 250
+let tuEdad = 25
+if ( miEdad > tuEdad ) {
+    console.log("soy " + ( miEdad - tuEdad ) + "años mayor que tu")
+} else if ( tuEdad > miEdad ) {
+    console.log("eres " + ( tuEdad - miEdad ) + "años mayor que yo")
+} else {
+    console.log("tenemos la misma edad")
+}
