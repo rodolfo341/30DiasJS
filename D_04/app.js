@@ -16,3 +16,12 @@
 // indicando quién es mayor (tú o yo). Utilice prompt(“Ingrese su edad:”) 
 // para obtener la edad como entrada.
 
+let miEdad = 25
+let tuEdad = prompt('Ingresen su edad:')
+if ( miEdad > tuEdad ) {
+    console.log('Eres ' + ( miEdad - tuEdad ) + ' menor que yo' )
+} else if ( tuEdad > miEdad ) {
+    console.log('Eres ' + ( tuEdad - miEdad ) + ' mayor que yo' )
+} else {
+    console.log('Tenemos la misma edad')
+}
