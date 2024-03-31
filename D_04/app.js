@@ -26,5 +26,8 @@
 //     console.log('Tenemos la misma edad')
 // }
 
+// 03 Si a es mayor que b, devuelve 'a es mayor que b'; 
+//     de lo contrario, 'a es menor que b'. 
+//     Trate de implementarlo de maneras diferentes
 
 
