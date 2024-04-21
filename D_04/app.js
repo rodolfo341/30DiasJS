@@ -39,9 +39,8 @@
 // ¿Cómo verificar si un número es par o no usando JavaScript?
 
 let a = parseInt(prompt('a = '))
-let b = parseInt(prompt('b = '))
 
-if ( ( a % b ) == 0 ) {
+if ( ( a % 2 ) == 0 ) {
     console.log("Es par")
 } else {
     console.log("No es par")
