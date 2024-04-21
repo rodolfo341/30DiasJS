@@ -30,8 +30,15 @@
 //     de lo contrario, 'a es menor que b'. 
 //     Trate de implementarlo de maneras diferentes
 
-let a = parseInt(prompt("a: "));
-let b = parseInt(prompt("b: "));
+// let a = parseInt(prompt("a: "));
+// let b = parseInt(prompt("b: "));
 
-(a > b) ? console.log('a es mayor que b') : console.log('a es menor que b');
+// (a > b) ? console.log('a es mayor que b') : console.log('a es menor que b');
+
+// Los números pares son divisibles por 2 y el resto es cero. 
+// ¿Cómo verificar si un número es par o no usando JavaScript?
+
+
+
+
 
