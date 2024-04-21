@@ -46,7 +46,7 @@
 //     console.log("No es par")
 // }
 
-// 05 Escriba un código que pueda calificar a los estudiantes de acuerdo con sus puntajes:
+// nivel 01 ej 01 Escriba un código que pueda calificar a los estudiantes de acuerdo con sus puntajes:
 // 80-100, A
 // 70-89, B
 // 60-69, C
@@ -67,6 +67,7 @@ if ( nota < 0 || nota > 100){
 } else if ( nota <= 100 ) {
     console.log('A')
 }
+
 
 
 
