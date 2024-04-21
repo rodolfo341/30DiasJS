@@ -68,16 +68,20 @@
 // Marzo, Abril o Mayo, la temporada es Primavera
 // Junio, Julio o Agosto, la temporada es Verano
 
-let mes = parseInt(prompt('ingrese mes \n 1) Septiembre, Octubre o Noviembre \n 2) Diciembre, Enero o Febrero \n 3) Marzo, Abril o Mayo \n 4) Junio, Julio o Agosto'));
+// let mes = parseInt(prompt('ingrese mes \n 1) Septiembre, Octubre o Noviembre \n 2) Diciembre, Enero o Febrero \n 3) Marzo, Abril o Mayo \n 4) Junio, Julio o Agosto'));
 
-if ( mes == 1 ) {
-    console.log('la temporada es Otoño.')
-} else if ( mes == 2 ) {
-    console.log('la temporada es Invierno.')
-} else if ( mes == 3 ) {
-    console.log('la temporada es Primavera.')
-} else if ( mes == 4 ) {
-    console.log('la temporada es Veranp.')
+// if      ( mes == 1 ) { console.log('la temporada es Otoño.'    ) } 
+// else if ( mes == 2 ) { console.log('la temporada es Invierno.' ) } 
+// else if ( mes == 3 ) { console.log('la temporada es Primavera.') } 
+// else if ( mes == 4 ) { console.log('la temporada es Veranp.'   ) } 
+// else                 { console.log('Error!'                    ) }
+
+// Nivel 02 ej 03 Compruebe si un día es un día de fin de semana o un día laborable. Su script tomará el día como entrada.
+let dia = prompt('Ingrese día: ').toLowerCase()
+if ( dia == 'sabado' || dia == 'domingo') {
+    console.log('El ' + dia + ' es fin de semana.')
+} else if ( dia == 'lunes' || dia == 'martes' || dia == 'miercoles' || dia == 'jueves' || dia =='viernes' ) {
+    console.log('El ' + dia + ' no es fin de semana.')
 } else {
     console.log('Error!')
 }
