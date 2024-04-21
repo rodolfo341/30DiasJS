@@ -77,11 +77,24 @@
 // else                 { console.log('Error!'                    ) }
 
 // Nivel 02 ej 03 Compruebe si un día es un día de fin de semana o un día laborable. Su script tomará el día como entrada.
-let dia = prompt('Ingrese día: ').toLowerCase()
-if ( dia == 'sabado' || dia == 'domingo') {
-    console.log('El ' + dia + ' es fin de semana.')
-} else if ( dia == 'lunes' || dia == 'martes' || dia == 'miercoles' || dia == 'jueves' || dia =='viernes' ) {
-    console.log('El ' + dia + ' no es fin de semana.')
+// let dia = prompt('Ingrese día: ').toLowerCase()
+// if ( dia == 'sabado' || dia == 'domingo') {
+//     console.log('El ' + dia + ' es fin de semana.')
+// } else if ( dia == 'lunes' || dia == 'martes' || dia == 'miercoles' || dia == 'jueves' || dia =='viernes' ) {
+//     console.log('El ' + dia + ' no es fin de semana.')
+// } else {
+//     console.log('Error!')
+// }
+
+// Nivel 03 ej 01 Escribe un programa que diga el número de días en un mes.
+
+let mes = prompt('mes? ').toLowerCase()
+if ( mes == 'enero' || mes == 'marzo' || mes == 'mayo' || mes == 'julio' || mes == 'agosto' || mes == 'octubre' || mes == 'diciembre') {
+    console.log('31')
+} else if ( mes == 'abril' || mes == 'junio' || mes == 'septiembre' || mes == 'noviembre') {
+    console.log('30')
+} else if ( mes == 'febrero'){
+    console.log('28')
 } else {
     console.log('Error!')
 }
