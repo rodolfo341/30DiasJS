@@ -38,7 +38,14 @@
 // Los números pares son divisibles por 2 y el resto es cero. 
 // ¿Cómo verificar si un número es par o no usando JavaScript?
 
+let a = parseInt(prompt('a = '))
+let b = parseInt(prompt('b = '))
 
+if ( ( a % b ) == 0 ) {
+    console.log("Es par")
+} else {
+    console.log("No es par")
+}
 
 
 
