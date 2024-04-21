@@ -30,4 +30,8 @@
 //     de lo contrario, 'a es menor que b'. 
 //     Trate de implementarlo de maneras diferentes
 
+let a = parseInt(prompt("a: "));
+let b = parseInt(prompt("b: "));
+
+(a > b) ? console.log('a es mayor que b') : console.log('a es menor que b');
 
