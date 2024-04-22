@@ -1,3 +1,7 @@
 // Nivel 01 ej 01 Declara un array vacío.
-const arreglo1 = array()
-const arreglo2 = []
+// const arreglo1 = array()
+// const arreglo2 = []
+
+// Nivel 1 aj 02 Declara un array com mas de 5 elementos.
+
+const arreglo = [1,2,3,4,5,6]
