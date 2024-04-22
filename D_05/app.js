@@ -3,5 +3,7 @@
 // const arreglo2 = []
 
 // Nivel 1 aj 02 Declara un array com mas de 5 elementos.
-
 const arreglo = [1,2,3,4,5,6]
+
+// Nivel 1 ej 03 Encuentra la longitud de tu array.
+console.log(arreglo.length)
