@@ -7,3 +7,9 @@ const arreglo = [1,2,3,4,5,6]
 
 // Nivel 1 ej 03 Encuentra la longitud de tu array.
 console.log(arreglo.length)
+
+// Nivel 01 ej o4 Obtenga el primer elemento, el elemento del medio y el último elemento de un array.
+console.log(arreglo[0])
+console.log(arreglo[arreglo.length/2])
+console.log(arreglo[arreglo.length-1])
+
