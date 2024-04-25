@@ -16,5 +16,11 @@
 // Nivel 01 ej 05 Declara un array llamado mixedDataTypes, 
 // coloque diferentes tipos de datos en el array y encuentre la longitud del array. 
 // El tamaño del array debe ser mayor que 5.
-const mixedDataTypes =[5,"hola", true, 3, 3.5, "chao"]
-console.log(mixedDataTypes.length)
+// const mixedDataTypes =[5,"hola", true, 3, 3.5, "chao"]
+// console.log(mixedDataTypes.length)
+
+// Nivel 01 ej 06 Declare un variable array de nombre itCompanies y 
+// asignarles valores iniciales 
+// Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon.
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
