@@ -26,3 +26,5 @@ const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle'
 
 // Nivel 01 ej 07 Imprima el array usando console.log().
 console.log(itCompanies)
+
+// N
