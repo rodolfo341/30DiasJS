@@ -24,3 +24,5 @@
 // Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon.
 const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 
+// Nivel 01 ej 07 Imprima el array usando console.log().
+console.log(itCompanies)
