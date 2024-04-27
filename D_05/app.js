@@ -27,4 +27,12 @@ const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle'
 // Nivel 01 ej 07 Imprima el array usando console.log().
 console.log(itCompanies)
 
-// N
+// Nivel 01 ej 08 Imprima el número de empresas en el array.
+console.log(itCompanies.length)
+
+// Nivel 01 ej 09 Imprima el número de empresas en el array.Imprime la primer empresa , la intermedia y la última empresa
+console.log(itCompanies[0])
+console.log(itCompanies[ Math.trunc(itCompanies.length / 2 )])
+console.log(itCompanies[itCompanies.length - 1])
+
+// Nivel 01 ej 10 Imprime cada empresa.
