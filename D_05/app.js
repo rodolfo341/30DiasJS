@@ -36,8 +36,14 @@ console.log(itCompanies[ Math.trunc(itCompanies.length / 2 )])
 console.log(itCompanies[itCompanies.length - 1])
 
 // Nivel 01 ej 10 Imprime cada empresa.
-for ( let i = 1; i < itCompanies.length; i++){
+for ( let i = 0; i < itCompanies.length; i++){
     console.log(itCompanies[i])
 }
 
 // Nivel 01 ej 11 Cambie el nombre de cada empresa a mayúsculas uno por uno e imprímalos.
+for ( let i = 0; i < itCompanies.length; i++){
+    itCompanies[i] = itCompanies[i].toUpperCase()
+}
+console.log(itCompanies)
+
+
