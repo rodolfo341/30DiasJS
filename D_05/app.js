@@ -39,3 +39,5 @@ console.log(itCompanies[itCompanies.length - 1])
 for ( let i = 1; i < itCompanies.length; i++){
     console.log(itCompanies[i])
 }
+
+// Nivel 01 ej 11 Cambie el nombre de cada empresa a mayúsculas uno por uno e imprímalos.
