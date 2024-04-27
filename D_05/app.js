@@ -36,3 +36,6 @@ console.log(itCompanies[ Math.trunc(itCompanies.length / 2 )])
 console.log(itCompanies[itCompanies.length - 1])
 
 // Nivel 01 ej 10 Imprime cada empresa.
+for ( let i = 1; i < itCompanies.length; i++){
+    console.log(itCompanies[i])
+}
