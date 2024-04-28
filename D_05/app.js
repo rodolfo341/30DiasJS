@@ -62,3 +62,5 @@ for ( let i = 0; i < itCompanies.length ; i++ ){
 if ( bandera == false ) {
     console.log('la empresa no existe')
 }
+
+// Nivel 01 ej 14 Ordene el array usando el método sort()
