@@ -64,3 +64,6 @@ if ( bandera == false ) {
 }
 
 // Nivel 01 ej 14 Ordene el array usando el método sort()
+itCompanies.sort()
+console.log(itCompanies)
+
