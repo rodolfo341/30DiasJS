@@ -52,4 +52,13 @@ console.log(itCompanies[0] + ', ' + itCompanies[1] + ', ' + itCompanies[2] + ', 
 
 // Nivel 01 ej 13 Compruebe si existe una determinada empresa en el array itCompanies. 
 // Si existe, retorna la empresa; de lo contrario, retorna la empresa no existe
-
+let bandera = false
+for ( let i = 0; i < itCompanies.length ; i++ ){
+    if ( itCompanies[i] == 'Apple' ){
+        console.log(itCompanies[i])
+        bandera = true
+    }
+}
+if ( bandera == false ) {
+    console.log('la empresa no existe')
+}
