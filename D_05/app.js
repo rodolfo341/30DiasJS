@@ -85,4 +85,5 @@ console.log(itCompaniesFiltradas);
 itCompanies.sort()
 console.log(itCompanies) 
 
+// Nivel 01 ej 16 Invierte la array usando el método reverse()
 
