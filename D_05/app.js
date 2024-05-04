@@ -63,7 +63,26 @@ if ( bandera == false ) {
     console.log('la empresa no existe')
 }
 
-// Nivel 01 ej 14 Ordene el array usando el método sort()
+// Nivel 01 ej 14 Filtre las empresas que tienen más de una 'o' sin el método filter() 
+let itCompaniesFiltradas = [];
+
+for (var i = 0; i < itCompanies.length; i++) {
+  var count = 0;
+  for (var j = 0; j < itCompanies[i].length; j++) {
+    if (itCompanies[i][j] === 'o' || itCompanies[i][j] === 'O') {
+      count++;
+    }
+  }
+  if (count > 1) {
+    itCompaniesFiltradas.push(itCompanies[i]);
+  }
+}
+
+console.log(itCompaniesFiltradas);
+
+
+// Nivel 01 ej 15 Ordene el array usando el método sort()
 itCompanies.sort()
-console.log(itCompanies)
+console.log(itCompanies) 
+
 
