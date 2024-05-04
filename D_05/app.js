@@ -88,3 +88,5 @@ console.log(itCompanies)
 // Nivel 01 ej 16 Invierte la array usando el método reverse()
 itCompanies.reverse()
 console.log(itCompanies)
+
+// Nivel 01 ej 17 Cortar las primeras 3 empresas del array
