@@ -90,5 +90,6 @@ itCompanies.reverse()
 console.log(itCompanies)
 
 // Nivel 01 ej 17 Cortar las primeras 3 empresas del array
-itCompanies.splice(0,3)
+// Nivel 01 ej 18 Cortar la empresa o empresas intermedias de TI del array
+itCompanies.splice(2,3)
 console.log(itCompanies)
