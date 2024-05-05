@@ -144,3 +144,16 @@ const backEnd = ["Node", "Express", "MongoDB"];
 
 const fullStack = frontEnd + backEnd
 console.log(fullStack);
+
+// Nivel 3
+
+// El siguiente es un array de 10 edades de estudiantes:
+
+// - Ordene el array y encuentre la edad mínima y máxima
+// - Encuentre la edad media (un elemento intermedio o dos elementos intermedios divididos por dos)
+// - Encuentre la edad promedio (todos los elementos divididos por el número de elementos)
+// - Encuentre el rango de las edades (max menos min)
+// - Compare el valor de (mín - promedio) y (máx - promedio), use el método _abs()_
+
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
