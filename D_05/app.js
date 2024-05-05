@@ -133,5 +133,6 @@ console.log(arrayText.length)
 
 const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
 shoppingCart.unshift('Meat')
-console.log(shoppingCart)
 
+shoppingCart.push('Sugar')
+console.log(shoppingCart)
