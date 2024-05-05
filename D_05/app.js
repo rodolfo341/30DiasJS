@@ -105,6 +105,8 @@
 // almacene el array de webTechs en este archivo. 
 // Acceda a ambos archivos en el archivo main.js
 
+// Ej 02 Primero elimine todos los signos de puntuación y 
+// cambie de string a array y cuente el número de palabras en el array
 let text =
   "I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.";
 
@@ -119,6 +121,9 @@ for (let i = 0; i < text.length; i++) {
 console.log(text);
 console.log(textoSinPuntuacion)
 
+arrayText = text.split(" ")
+console.log(arrayText)
+console.log(arrayText.length)
 
 
 
