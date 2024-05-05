@@ -92,6 +92,8 @@ console.log(itCompanies)
 // Nivel 01 ej 18 Cortar las últimas 3 empresas del array
 // Nivel 01 ej 19 Cortar la empresa o empresas intermedias de TI del array
 // Nivel 01 ej 20 Eliminar la primera empresa de TI del array
-itCompanies.splice(0,1)
+// Nivel 01 ej 21 Eliminar la empresa o empresas intermedias de TI del array
+itCompanies.splice(2,1)
+itCompanies.splice(3,1)
 console.log(itCompanies)
 
