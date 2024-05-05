@@ -156,4 +156,7 @@ console.log(fullStack);
 // - Compare el valor de (mín - promedio) y (máx - promedio), use el método _abs()_
 
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-
+ages.sort()
+console.log(ages)
+console.log(ages[0])
+console.log(ages[ages.length-1])
