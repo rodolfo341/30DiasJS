@@ -125,5 +125,13 @@ arrayText = text.split(" ")
 console.log(arrayText)
 console.log(arrayText.length)
 
+// ej 03 En el siguiente carrito de compras agregue, elimine, edite artículos
+// Agregue 'Meat' al comienzo de su carrito de compras si aún no se ha agregado
+// Agregue 'Sugar' al final de su carrito de compras si aún no se ha agregado
+// Elimine 'Honey' si es alérgico a la miel (honey)
+// Modificar Tea a 'Green Tea'
 
+const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+shoppingCart.unshift('Meat')
+console.log(shoppingCart)
 
