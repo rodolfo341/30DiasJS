@@ -80,7 +80,6 @@ for (var i = 0; i < itCompanies.length; i++) {
 
 console.log(itCompaniesFiltradas);
 
-
 // Nivel 01 ej 15 Ordene el array usando el método sort()
 itCompanies.sort()
 console.log(itCompanies) 
@@ -90,6 +89,9 @@ itCompanies.reverse()
 console.log(itCompanies)
 
 // Nivel 01 ej 17 Cortar las primeras 3 empresas del array
-// Nivel 01 ej 18 Cortar la empresa o empresas intermedias de TI del array
-itCompanies.splice(2,3)
+// Nivel 01 ej 18 Cortar las últimas 3 empresas del array
+// Nivel 01 ej 19 Cortar la empresa o empresas intermedias de TI del array
+// Nivel 01 ej 20 Eliminar la primera empresa de TI del array
+itCompanies.splice(0,1)
 console.log(itCompanies)
+
