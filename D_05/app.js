@@ -105,3 +105,20 @@
 // almacene el array de webTechs en este archivo. 
 // Acceda a ambos archivos en el archivo main.js
 
+let text =
+  "I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.";
+
+let puntuacion = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+let textoSinPuntuacion = "";
+
+for (let i = 0; i < text.length; i++) {
+    if (puntuacion.indexOf(text[i]) === -1) {
+        textoSinPuntuacion += text[i];
+    }
+}
+console.log(text);
+console.log(textoSinPuntuacion)
+
+
+
+
