@@ -19,4 +19,5 @@ const countries = [
     console.log('ETHIOPIA')
   } else {
     countries.unshift('Ethiopia')
+    console.log(countries)
   }
