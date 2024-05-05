@@ -94,7 +94,7 @@ console.log(itCompanies)
 // Nivel 01 ej 20 Eliminar la primera empresa de TI del array
 // Nivel 01 ej 21 Eliminar la empresa o empresas intermedias de TI del array
 // Nivel 01 ej 22 Elimine la última empresa de TI del array
-
-itCompanies.pop()
+// Nivel 01 ej 23 Eliminar todas las empresas de TI
+itCompanies.splice(0,itCompanies.length)
 console.log(itCompanies)
 
