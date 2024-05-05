@@ -137,3 +137,10 @@ shoppingCart.unshift('Meat')
 shoppingCart.push('Sugar')
 shoppingCart[3] = 'Green Tea'
 console.log(shoppingCart)
+
+// ej 06 Concatene las siguientes dos variables y guardelas en una variable fullStack.
+const frontEnd = ["HTML", "CSS", "JS", "React", "Redux"];
+const backEnd = ["Node", "Express", "MongoDB"];
+
+const fullStack = frontEnd + backEnd
+console.log(fullStack);
