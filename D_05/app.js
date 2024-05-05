@@ -135,4 +135,5 @@ const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
 shoppingCart.unshift('Meat')
 
 shoppingCart.push('Sugar')
+shoppingCart.splice(4,1)
 console.log(shoppingCart)
