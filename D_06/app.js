@@ -29,3 +29,17 @@ const countries = [
   for ( let i=0 ; i<10 ; i++){
     console.log(countries[i])
   }
+
+  let j = 0
+  while( j < 10 ){
+    console.log(countries[j])
+    j++
+  }
+
+  let z = 0
+  do {
+    console.log(countries[z])
+    z++
+  } while (z < 10);
+
+  
