@@ -25,8 +25,10 @@ const countries = [
   const mernStack = ["MongoDB", "Express", "React", "Node"];
 
   // Itera de 0 a 10 usando el bucle for, haga lo mismo usando los bucles while y do while
-
-  for ( let i=0 ; i<10 ; i++){
+  // 06 01 02 Itera 10 to 0 usando el bucle for, haga lo mismo usando los bucles while y do while
+// 03 Itera de 0 a n usando el bucle for
+let n = prompt('N: ')
+  for ( let i=0 ; i<n ; i++){
     console.log(countries[i])
   }
 
@@ -42,4 +44,6 @@ const countries = [
     z++
   } while (z < 10);
 
-  // 06 01 02 Itera 10 to 0 usando el bucle for, haga lo mismo usando los bucles while y do while
+
+
+  
