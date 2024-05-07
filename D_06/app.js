@@ -42,4 +42,4 @@ const countries = [
     z++
   } while (z < 10);
 
-  
+  // 06 01 02 Itera 10 to 0 usando el bucle for, haga lo mismo usando los bucles while y do while
