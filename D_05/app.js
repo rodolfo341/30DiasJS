@@ -160,3 +160,13 @@ ages.sort()
 console.log(ages)
 console.log(ages[0])
 console.log(ages[ages.length-1])
+
+let acum = 0
+for ( let i=0 ; ages.length-1 ; i++) {
+    acum += ages[i]
+}
+
+let media = acum / ages.length
+console.log(media)
+
+console.log(ages[ages.length-1] - ages[0])
