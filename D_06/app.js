@@ -1,5 +1,5 @@
-function saludar(nombre) {
-  return 'hola ' + nombre
+function sumar(x,y){
+  return x+y
 }
 
-console.log(saludar('Rodolfo'))
+console.log(sumar(5,4))
