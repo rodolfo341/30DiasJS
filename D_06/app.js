@@ -1,5 +1,3 @@
-function sumar(x,y){
-  return x+y
-}
-
-console.log(sumar(5,4))
+// template string
+let nombre = ' Rodolfo'
+console.log(`Hola ${nombre}`)
