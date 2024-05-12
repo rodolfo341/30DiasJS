@@ -1,4 +1,6 @@
 const colores = ['rojo','verde']
-colores.unshift('azul')
+colores.push('azul')
 console.log(colores)
-
+const eliminado = colores.shift()
+console.log(colores)
+console.log(eliminado)
