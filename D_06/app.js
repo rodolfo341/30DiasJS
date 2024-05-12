@@ -1,7 +1,4 @@
-// template string
-let nombre = ' Rodolfo'
+const colores = ['rojo','verde']
+colores.push('azul')
+console.log(colores)
 
-let estado = true
-console.log(`
-    estado ${(estado) ? 'en linea': 'offline'}
-`)
