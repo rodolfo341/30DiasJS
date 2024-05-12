@@ -1,4 +1,4 @@
 const colores = ['rojo','verde']
-colores.push('azul')
+colores.unshift('azul')
 console.log(colores)
 
