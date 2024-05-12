@@ -1,3 +1,7 @@
 // template string
 let nombre = ' Rodolfo'
-console.log(`Hola ${nombre}`)
+
+let estado = true
+console.log(`
+    estado ${(estado) ? 'en linea': 'offline'}
+`)
