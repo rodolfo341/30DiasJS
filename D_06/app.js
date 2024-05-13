@@ -1,13 +1,14 @@
-const frutas = []
 
-const fruta = prompt('que fruta?')
-frutas.push(fruta)
-
-while(confirm('otra fruta?')){
-    const fruta = prompt('que fruta?')
-    frutas.push(fruta)
+// declaro la función
+function numAleatorioRango(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
 }
 
-for(const fruta of frutas){
-    console.log(fruta)
+// invoco la función
+console.log(numAleatorioRango(1, 11))
+
+const miNumero = function (min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
 }
+console.log(miNumero(1, 11))
+
