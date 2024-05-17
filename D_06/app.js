@@ -1,14 +1,15 @@
+const frutas = []
+const fruta = prompt('🍒 Feria Market 🍉 ¿qué fruta desea comprar?')
 
-// declaro la función
-function numAleatorioRango(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
+frutas.push(fruta)
+
+while (confirm('¿Desea agregar otro elemento al 🛒?')) {
+    const fruta = prompt('¿qué fruta desea comprar?')
+    frutas.push(fruta)
 }
 
-// invoco la función
-console.log(numAleatorioRango(1, 11))
-
-const miNumero = function (min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
+console.log('Ustede compró: ')
+for (let fruta of frutas) {
+    console.log(fruta)
 }
-console.log(miNumero(1, 11))
 
