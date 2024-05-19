@@ -1,7 +1,15 @@
-// Usa el bucle for para iterar de 0 a 100 e imprima solo números pares
-
-for ( let i=0 ; i <=100 ; i++ ) {
-    if ( i % 2 != 0 ){
-        console.log( i )
+for (let i = 2; i <= 100; i++) {
+    let esPrimo = true;
+  
+    for (let j = 2; j <= Math.sqrt(i); j++) {
+      if (i % j === 0) {
+        esPrimo = false;
+        break;
+      }
+    }
+  
+    if (esPrimo) {
+      console.log(i);
     }
 }
+  
