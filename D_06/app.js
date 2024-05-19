@@ -1,6 +1,6 @@
 
-for ( let i = 1 ; i>8 ; i++ ) {
-    console.log('#'.repeat(i))
+for ( let i = 0 ; i<=10 ; i++ ) {
+    console.log(`${i} x ${i} = ${i * i}`)
 }
 
 
