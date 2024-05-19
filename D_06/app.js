@@ -1,15 +1,6 @@
-for (let i = 2; i <= 100; i++) {
-    let esPrimo = true;
-  
-    for (let j = 2; j <= Math.sqrt(i); j++) {
-      if (i % j === 0) {
-        esPrimo = false;
-        break;
-      }
-    }
-  
-    if (esPrimo) {
-      console.log(i);
-    }
+let acum = 0
+for ( let i=0 ; i <=100 ; i++ ) {
+    acum += i
 }
+console.log(acum)
   
