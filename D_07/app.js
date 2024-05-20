@@ -1,4 +1,6 @@
-function fullName () {
-    console.log('Rodolfo')
+function fullName (nombre,apellido) {
+    return `${nombre} ${apellido}`
 }
-fullName()
+const completo = fullName('Rodolfo','Aravena')
+
+console.log(completo)
