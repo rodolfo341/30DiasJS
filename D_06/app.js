@@ -1,13 +1,7 @@
 
-// Usa el bucle para iterar de 0 a 100 e imprimir la suma de todos los pares y la suma de todos los impares. Imprimir suma de pares y suma de impares como un array
+const aleatorios =[]
 
-let acum = 0
-let acum2 = 0
-for ( let i=0 ; i <=100 ; i++ ) {
-    if ( i%2 === 0 ){
-        acum += i
-    } else {
-        acum2 += i
-    }
+for ( let i=0 ; i<=5 ; i++ ) {
+    aleatorios.push(Math.floor(Math.random() * 100 ) + 1)
 }
-console.log([acum,acum2])
+console.log(aleatorios)
