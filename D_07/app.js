@@ -1,4 +1,4 @@
-function area (alto,ancho) {
-    return  alto*ancho
+function perimetroRectangulo (alto,ancho) {
+    return  2*(alto+ancho)
 }
-console.log(area(5,3))
+console.log(perimetroRectangulo(5,3))
