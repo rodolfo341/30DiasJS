@@ -1,4 +1,4 @@
-function suma (x,y) {
-    return  x+y
+function area (alto,ancho) {
+    return  alto*ancho
 }
-console.log(suma(5,3))
+console.log(area(5,3))
