@@ -1,4 +1,4 @@
-function areaCirculo(radio){
-    return Math.PI * radio * radio
+function circunferenciaCirculo(radio){
+    return 2 * Math.PI * radio
 }
-console.log(areaCirculo(4))
+console.log(circunferenciaCirculo(4))
