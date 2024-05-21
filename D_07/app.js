@@ -1,6 +1,6 @@
-let persona = {
-    nombre: 'rodolfo',
-    edad: 52
+const gato ={
+    nombre: 'Tom',
+    duerme: true,
+    edad: 10,
+    enemigos: ['agua','perro']
 }
-
-console.log(persona.nombre)
