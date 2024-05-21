@@ -1,13 +1,15 @@
-function estacion(mes){
-    if  (mes === 1 || mes === 2 || mes === 12 ){
-        console.log('verano')
-    } else if  (mes === 3 || mes === 4 || mes === 5 ){
-        console.log('otoño')
-    } else if  (mes === 6 || mes === 7 || mes === 8 ){
-        console.log('invierno')
-    } else if  (mes === 9 || mes === 10 || mes === 11 ){
-        console.log('primavera')
+function max(x,y,z){
+    if ( x>y && x>z ){
+        return x
+    } else if ( y>x && y>z ){
+        return y
+    } else {
+        return z
     }
 }
-const mes = parseInt(prompt("ingrese mes"))
-estacion(mes)
+
+const x = parseInt(prompt('x'))
+const y = parseInt(prompt('y'))
+const z = parseInt(prompt('x'))
+
+console.log(`el mayor es ${max(x,y,z)}`)
