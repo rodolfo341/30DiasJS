@@ -1,4 +1,4 @@
-function perimetroRectangulo (alto,ancho) {
-    return  2*(alto+ancho)
+function volumenPrisma (alto,ancho,largo) {
+    return  alto*ancho*largo
 }
-console.log(perimetroRectangulo(5,3))
+console.log(volumenPrisma(4,5,6))
