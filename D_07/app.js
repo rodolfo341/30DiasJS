@@ -1,4 +1,4 @@
-function circunferenciaCirculo(radio){
-    return 2 * Math.PI * radio
+function densidad(masa,volumen){
+    return masa / volumen
 }
-console.log(circunferenciaCirculo(4))
+console.log(densidad(2,3))
