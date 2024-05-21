@@ -1,4 +1,4 @@
-function volumenPrisma (alto,ancho,largo) {
-    return  alto*ancho*largo
+function areaCirculo(radio){
+    return Math.PI * radio * radio
 }
-console.log(volumenPrisma(4,5,6))
+console.log(areaCirculo(4))
