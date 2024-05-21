@@ -5,7 +5,4 @@ const gato ={
     enemigos: ['agua','perro']
 }
 
-gato.color = 'azul'
-gato.edad = 11
-delete gato.duerme
-console.log(gato)
+console.log(gato.hasOwnProperty('nombre'))
