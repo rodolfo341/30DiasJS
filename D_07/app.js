@@ -1,6 +1,4 @@
-function fullName (nombre,apellido) {
-    return `${nombre} ${apellido}`
+function suma (x,y) {
+    return  x+y
 }
-const completo = fullName('Rodolfo','Aravena')
-
-console.log(completo)
+console.log(suma(5,3))
