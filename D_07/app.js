@@ -4,3 +4,5 @@ const gato ={
     edad: 10,
     enemigos: ['agua','perro']
 }
+
+console.log(gato)
