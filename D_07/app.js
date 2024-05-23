@@ -1,8 +1,10 @@
 const gato ={
     nombre: 'Tom',
-    duerme: true,
     edad: 10,
-    enemigos: ['agua','perro']
+    enemigos: ['agua','perro'],
+    comer: function() {
+        console.log('gato comiendo')
+    }
 }
 
-console.log(gato.hasOwnProperty('nombre'))
+console.log(gato.comer())
