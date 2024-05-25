@@ -6,5 +6,5 @@ const gato ={
 }
 
 for(let i in gato){
-    console.log(i)
+    console.log(gato[i])
 }
