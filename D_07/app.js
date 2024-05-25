@@ -1,10 +1,10 @@
 const gato ={
     nombre: "Tom",
+    duerme: true,
     edad: 10,
-    enemigos: ['agua','perro'],
-    comer: (alimento) => {
-        console.log(`el gato ${this.nombre} esta comiendo ${alimento}`)
-    }
+    enemigos: ['agua','perro']
 }
 
-gato.comer('pollo')
+for(let i in gato){
+    console.log(i)
+}
