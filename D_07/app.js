@@ -4,7 +4,5 @@ const gato ={
     edad: 10,
     enemigos: ['agua','perro']
 }
-
-for(let i in gato){
-    console.log(gato[i])
-}
+const nombre = gato.nombre
+console.log(nombre)
