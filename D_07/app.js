@@ -1,9 +1,11 @@
+
+
 const gato ={
     nombre: "Tom",
     duerme: true,
     edad: 10,
     enemigos: ['agua','perro']
 }
-const {nombre,duerme,edad,enemigos} = gato
+const {nombre:nombreG, duerme:duermeG, edad: edadG, enemigos: enemigosG} = gato
 
-console.log(nombre)
+console.log(nombreG, duermeG, edadG, enemigosG)
