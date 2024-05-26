@@ -4,5 +4,6 @@ const gato ={
     edad: 10,
     enemigos: ['agua','perro']
 }
-const nombre = gato.nombre
+const {nombre,duerme,edad,enemigos} = gato
+
 console.log(nombre)
