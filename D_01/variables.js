@@ -1,4 +1,5 @@
-let nombre = "Rodolfo", apellido = "Aravena", esta_casado = false, pais = "Chile", edad = 52;
+
+/*let nombre = "Rodolfo", apellido = "Aravena", esta_casado = false, pais = "Chile", edad = 52;
 
 console.log(nombre);
 
@@ -10,3 +11,5 @@ console.log(pais);
 
 console.log(edad);
 
+*/
+// comentario de una linea
