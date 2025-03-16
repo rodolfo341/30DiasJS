@@ -12,4 +12,4 @@ console.log(pais);
 console.log(edad);
 
 */
-// comentario de una linea
+// Bienvenido a 30DaysOfJavaScript
