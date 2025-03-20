@@ -80,18 +80,11 @@ let cadena = "No puedes terminar una oración con porque porque porque es una co
 /*
 console.log(`primera aparición de "porque" en la cadena: ${cadena.indexOf("porque")}`);
 console.log("hola");
-*/
 
 // 18 Usa lastIndexOf para encontrar la posición de la última aparición de la palabra porque en la siguiente oración:
 //   'No puedes terminar una oración con porque porque porque es una conjunción'
 console.log(`Última aparición de "porque" en la cadena: ${cadena.lastIndexOf("porque")}`);
 
-
-
-
-
-
-/*
 // 19 Usa search para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:
 //   'No puedes terminar una oración con porque porque porque es una conjunción'
 console.log(cadena.search("porque"));
@@ -100,14 +93,18 @@ console.log(cadena.search("porque"));
 //   '30 días de JavaScript'.
 let desafio2 = " 30 dias de JavaScript ";
 console.log(desafio2);
-console.log(desafio2.trim());
+console.log(`uso dee strim() elimina espacios en blanco l principio y al final de la cadena ${desafio2.trim()}`);
 
 // 21 Use el método startsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
-console.log(desafio.startsWith("30"));
+console.log(`devuelve true ya que comienza en 30 (startsWith): ${desafio.startsWith(30)}`);
+*/
 
 // 22 Use el método endsWith() con la cadena 30 días de JavaScript y haga que el resultado sea verdadero
-console.log(desafio.endsWith("JavaScript"));
+console.log(`devuelve true por que la última palabra es "JavaScripyt" (endsWitch): {desafio.endsWith("JavaScript")}`);
 
+
+
+/*
 // 23 Usa el método match() para encontrar todos los a en 30 días de JavaScript
 console.log(desafio.match("a"));
 
