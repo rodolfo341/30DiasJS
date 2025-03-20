@@ -1,7 +1,7 @@
 
 // 01 Declare una variable llamada desafío y asígnele un valor inicial '30 días de JavaScript'.
 let desafio = "30 dias de JavaScript";
-
+/*
 // 02 Imprima la cadena en la consola del navegador usando console.log()
 console.log("2.- uso de console.log(): " + desafio);
 
@@ -65,26 +65,33 @@ console.log(`cadena newDesafio: ${newDesafio}`);
 console.log(`caracter en el indice 12:'${desafio.charAt(12)}'`);
 
 // 14 ¿Cuál es el código de carácter de J en la cadena '30 días de JavaScript' usando charCodeAt()
-console.log(desafio.charCodeAt(11));
+console.log(`el unicode de "j" en la posición 11 es ${desafio.charCodeAt(11)}`);
 
-
-
-/*
 // 15 Use indexOf para determinar la posición de la primera aparición de a en 30 días de JavaScript
 console.log(desafio.indexOf("a"));
 
 // 16 Utilice lastIndexOf para determinar la posición de la última aparición de a en 30 días de JavaScript.
-console.log(desafio.lastIndexOf("a"));
+console.log(`ultimo indice de la letra "a" el el string desaio: ${desafio.lastIndexOf("a")}`);
 
 // 17 Usa indexOf para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:
-//   'No puedes   terminar una oración con porque porque porque es una conjunción'
-let cadena = "No puedes   terminar una oración con porque porque porque es una conjunción";
-console.log(cadena.indexOf("porque"));
+//   'No puedes terminar una oración con porque porque porque es una conjunción'
+*/
+let cadena = "No puedes terminar una oración con porque porque porque es una conjunción";
+/*
+console.log(`primera aparición de "porque" en la cadena: ${cadena.indexOf("porque")}`);
+console.log("hola");
+*/
 
 // 18 Usa lastIndexOf para encontrar la posición de la última aparición de la palabra porque en la siguiente oración:
 //   'No puedes terminar una oración con porque porque porque es una conjunción'
-console.log(cadena.lastIndexOf("porque"));
+console.log(`Última aparición de "porque" en la cadena: ${cadena.lastIndexOf("porque")}`);
 
+
+
+
+
+
+/*
 // 19 Usa search para encontrar la posición de la primera aparición de la palabra porque en la siguiente oración:
 //   'No puedes terminar una oración con porque porque porque es una conjunción'
 console.log(cadena.search("porque"));
