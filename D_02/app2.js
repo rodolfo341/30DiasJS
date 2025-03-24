@@ -1,18 +1,24 @@
+/*
 // 01 Usando console.log() imprima la siguiente declaración:
-//    The quote 'There is no exercise better for the heart than reaching down and lifting people up.' 
-//    by John Holmes teaches us to help one another.
-console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' ");
-console.log("by John Holmes teaches us to help one another.");
+//    La cita 'No hay mejor ejercicio para el corazón que agacharse y levantar a la gente'. 
+//    Por John Holmes nos enseña a ayudarnos unos a otros.
+console.log("1.-");
+console.log("La cita 'No hay mejor ejercicio para el corazón que agacharse y levantar a la gente'. ");
+console.log("Por John Holmes nos enseña a ayudarnos unos a otros.");
 
 // 02 Usando console.log() imprima la siguiente cita de la Madre Teresa:
 //    "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- 
 //     with charity you give love, so don't just give money but reach out your hand instead."
+console.log("2.-")
 console.log("Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same");
 console.log(" -- with charity you give love, so don't just give money but reach out your hand instead.");
 
 // 03 Compruebe si typeof '10' es exactamente igual a 10. Si no, hágalo exactamente igual.
-console.log(typeof('10'));
-console.log(typeof(10));
+console.log(`es ==  '10' a  10 ?: ${(typeof('10')) ==  (typeof( 10 ))}`);
+console.log(`es === '10' a  10 ?: ${(typeof('10')) === (typeof( 10 ))}`);
+console.log(`es ==   10  a '10'?: ${(typeof( 10 )) ==  (typeof('10'))}`);
+console.log(`es ===  10  a '10'?: ${(typeof( 10 )) === (typeof('10'))}`);
+*/
 
 // 04 Compruebe si parseFloat('9.8') es igual a 10, si no, hágalo exactamente igual a 10.
 let num = '9.8';
@@ -20,6 +26,12 @@ let numPF = parseFloat(num);
 console.log(10);
 console.log(numPF);
 
+
+
+
+
+
+/*
 // 05 Verifique si 'on' se encuentra tanto en Python como en la jerga
 console.log("python".includes("on"));
 console.log("jerga".includes("on"));
@@ -59,41 +71,6 @@ console.log("5 1 5 25 125")
 //    'No puedes terminar una oración con porque porque porque es una conjunción'
 let oracion = 'No puedes terminar una oración con porque porque porque es una conjunción'
 console.log(oracion.substring(35,55))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
-https://www.xvideos.es/video32668203/asiatico_tren_se_burlan_de
-https://www.xvideos.es/video42877279/hermosa_asiatica_follada_en_el_tren
- */
+*/
 
 
