@@ -1,10 +1,16 @@
-//Declara un array vacío.
+// 1.- Declara un array vacío.
 const arreglo = Array();
+console.log(arreglo);
 
-/*Declara un array com mas de 5 elementos.
-Encuentra la longitud de tu array.
-Obtenga el primer elemento, el elemento del medio y el último elemento de un array.
-Declara un array llamado mixedDataTypes, coloque diferentes tipos de datos en el array y encuentre la longitud del array. El tamaño del array debe ser mayor que 5.
+// 2.- Declara un array com mas de 5 elementos.
+const numeros = [1, 2, 3, 4, 5, 6];
+console.log(numeros);
+
+// 3.- Encuentra la longitud de tu array.
+console.log(numeros.length);
+
+// 4.- Obtenga el primer elemento, el elemento del medio y el último elemento de un array.
+/*Declara un array llamado mixedDataTypes, coloque diferentes tipos de datos en el array y encuentre la longitud del array. El tamaño del array debe ser mayor que 5.
 Declare un variable array de nombre itCompanies y asignarles valores iniciales Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon.
 Imprima el array usando console.log().
 Imprima el número de empresas en el array.
