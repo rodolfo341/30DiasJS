@@ -25,18 +25,16 @@
 // console.log(typeof isMarried)
 // console.log(typeof year)
 
-// //  02  Verifique si typeof '10' es igual a 10
-// console.log(typeof 10)
-// console.log(typeof '10')
+//  02  Verifique si typeof '10' es igual a 10
+// console.log(typeof('10') === typeof( 10));
 
-// // 03 Verifique si parseInt('9.8') es igual a 10
+// 03 Verifique si parseInt('9.8') es igual a 10
 // let num = '10'
-// console.log(typeof num)
-// console.log(typeof parseInt(num))
+// console.log(parseInt('9.8') === 10)
 
-// // 04 Verifique cualquier valor booleano true o false.
-// //      Escriba tres declaraciones de JavaScript que proporcionen un valor verdadero.
-// //      Escriba tres declaraciones de JavaScript que proporcionen un valor falso.
+// 04 Verifique cualquier valor booleano true o false.
+//      Escriba tres declaraciones de JavaScript que proporcionen un valor verdadero.
+//      Escriba tres declaraciones de JavaScript que proporcionen un valor falso.
 
 // let valorVerdadero1 = true
 // let valorVerdadero2 = ( 10 == 10 )
@@ -52,31 +50,43 @@
 // console.log(valorFalso2)
 // console.log(valorFalso3)
 
-// // 05 Calcule primero el resultado de la siguiente expresión de comparación sin usar console.log(). 
-// //    Después de decidir el resultado, confirmelo usando console.log()
-// // 01 4 > 3
-// // 02 4 >= 3
-// // 03 4 < 3
-// // 04 4 <= 3
-// // 05 4 == 4
-// // 06 4 === 4
-// // 07 4 != 4
-// // 08 4 !== 4
-// // 09 4 != '4'
-// // 10 4 == '4'
-// // 11 4 === '4'
+// 05 Calcule primero el resultado de la siguiente expresión de comparación sin usar console.log(). 
+//    Después de decidir el resultado, confirmelo usando console.log()
+// 01 4 > 3
+// 02 4 >= 3
+// 03 4 < 3
+// 04 4 <= 3
+// 05 4 == 4
+// 06 4 === 4
+// 07 4 != 4
+// 08 4 !== 4
+// 09 4 != '4'
+// 10 4 == '4'
+// 11 4 === '4'
+// 12 Encuentre la longitud de Python y jargon y haga una declaración de comparación falsa.
+// let a = 4 > 3
+// console.log( a )
+// a = 4 >= 3
+// console.log( a )
+// a = 4 < 3
+// console.log( a )
+// a = 4 <= 3
+// console.log( a )
+// a = 4 == 4
+// console.log( a )
+// a = 4 === 4
+// console.log( a )
+// a = 4 != 4
+// console.log( a )
+// a = 4 !== 4
+// console.log( a )
+// a = 4 != '4'
+// console.log( a )
+// a =  4 == '4'
+// console.log( a )
+// a =  4 === '4'
+// console.log( a )
 // // 12 Encuentre la longitud de Python y jargon y haga una declaración de comparación falsa.
-// console.log( 4 > 3 )
-// console.log( 4 >= 3 )
-// console.log( 4 < 3 )
-// console.log( 4 <= 3 )
-// console.log( 4 == 4 )
-// console.log( 4 === 4 )
-// console.log( 4 != 4 )
-// console.log( 4 !== 4 )
-// console.log( 4 != '4' )
-// console.log( 4 == '4' )
-// console.log( 4 === '4' )
 // console.log('python'.length)
 // console.log('jargo'.length)
 // console.log('python'.length == 'jargo'.length )
@@ -309,7 +319,7 @@
 // Ingrese el número de años de vida: 100
 //  Viviste 3153600000 segundos.
 
-let edad = prompt('Ingrese el numero de años de vida: ')
-let segundos = edad * 365 * 24 * 60 * 60
-console.log('Viviste ' + segundos + ' segundos' )
+// let edad = prompt('Ingrese el numero de años de vida: ')
+// let segundos = edad * 365 * 24 * 60 * 60
+// console.log('Viviste ' + segundos + ' segundos' )
 

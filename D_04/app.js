@@ -33,7 +33,7 @@
 // let a = parseInt(prompt("a: "));
 // let b = parseInt(prompt("b: "));
 
-// 04 (a > b) ? console.log('a es mayor que b') : console.log('a es menor que b');
+// (a > b) ? console.log('a es mayor que b') : console.log('a es menor que b');
 
 // Los números pares son divisibles por 2 y el resto es cero. 
 // ¿Cómo verificar si un número es par o no usando JavaScript?
@@ -59,7 +59,7 @@
 // else if ( nota < 60 ) { console.log('D') } 
 // else if ( nota < 70 ) { console.log('C') } 
 // else if ( nota < 90 ) { console.log('B') } 
-// else if ( nota <= 100 ) { console.log('A') }
+// else if ( nota < 101 ) { console.log('A') }
 
 // nivel 02 ej 02 Consulta si la temporada es Otoño, Invierno, Primavera o Verano. 
 // Si la entrada del usuario es :
