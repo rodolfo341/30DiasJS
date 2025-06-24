@@ -10,6 +10,10 @@ console.log(numeros);
 console.log(numeros.length);
 
 // 4.- Obtenga el primer elemento, el elemento del medio y el último elemento de un array.
+console.log(numeros[0]);
+console.log(numeros[numeros.length - 1]);
+console.log(numeros[numeros.length / 2]);
+
 /*Declara un array llamado mixedDataTypes, coloque diferentes tipos de datos en el array y encuentre la longitud del array. El tamaño del array debe ser mayor que 5.
 Declare un variable array de nombre itCompanies y asignarles valores iniciales Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon.
 Imprima el array usando console.log().
