@@ -23,26 +23,26 @@ console.log(arreglo[arreglo.length - 1])
 const mixedDataTypes = [5, "hola", true, 3, 3.5, "chao"]
 console.log(mixedDataTypes.length)
 
-// Nivel 01 ej 06 Declare un variable array de nombre itCompanies y
+// ej 06 Declare un variable array de nombre itCompanies y
 // asignarles valores iniciales
 // Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon.
-// const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 
-// // Nivel 01 ej 07 Imprima el array usando console.log().
-// console.log(itCompanies)
+// ej 07 Imprima el array usando console.log().
+console.log(itCompanies)
 
-// // Nivel 01 ej 08 Imprima el número de empresas en el array.
-// console.log(itCompanies.length)
+// ej 08 Imprima el número de empresas en el array.
+console.log(itCompanies.length)
 
-// // Nivel 01 ej 09 Imprima el número de empresas en el array.Imprime la primer empresa , la intermedia y la última empresa
-// console.log(itCompanies[0])
-// console.log(itCompanies[ Math.trunc(itCompanies.length / 2 )])
-// console.log(itCompanies[itCompanies.length - 1])
+// ej 09 Imprima el número de empresas en el array.Imprime la primer empresa , la intermedia y la última empresa
+console.log(itCompanies[0])
+console.log(itCompanies[Math.trunc(itCompanies.length / 2)])
+console.log(itCompanies[itCompanies.length - 1])
 
 // // Nivel 01 ej 10 Imprime cada empresa.
-// for ( let i = 0; i < itCompanies.length; i++){
-//     console.log(itCompanies[i])
-// }
+for (let i = 0; i < itCompanies.length; i++) {
+    console.log(itCompanies[i])
+}
 
 // // Nivel 01 ej 11 Cambie el nombre de cada empresa a mayúsculas uno por uno e imprímalos.
 // // for ( let i = 0; i < itCompanies.length; i++){
