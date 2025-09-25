@@ -44,11 +44,11 @@ for (let i = 0; i < itCompanies.length; i++) {
     console.log(itCompanies[i])
 }
 
-// // Nivel 01 ej 11 Cambie el nombre de cada empresa a mayúsculas uno por uno e imprímalos.
-// // for ( let i = 0; i < itCompanies.length; i++){
-// //     itCompanies[i] = itCompanies[i].toUpperCase()
-// // }
-// console.log(itCompanies)
+// Nivel 01 ej 11 Cambie el nombre de cada empresa a mayúsculas uno por uno e imprímalos.
+for ( let i = 0; i < itCompanies.length; i++){
+    itCompanies[i] = itCompanies[i].toUpperCase()
+}
+console.log(itCompanies)
 
 // // Nivel 01 ej 12 Imprime el array como una oración:
 // // Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon son grandes empresas de TI.
