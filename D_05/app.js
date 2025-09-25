@@ -45,14 +45,14 @@ for (let i = 0; i < itCompanies.length; i++) {
 }
 
 // Nivel 01 ej 11 Cambie el nombre de cada empresa a mayúsculas uno por uno e imprímalos.
-for ( let i = 0; i < itCompanies.length; i++){
+for (let i = 0; i < itCompanies.length; i++) {
     itCompanies[i] = itCompanies[i].toUpperCase()
 }
 console.log(itCompanies)
 
-// // Nivel 01 ej 12 Imprime el array como una oración:
-// // Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon son grandes empresas de TI.
-// console.log(itCompanies[0] + ', ' + itCompanies[1] + ', ' + itCompanies[2] + ', ' + itCompanies[3] + ', ' + itCompanies[4] + ', ' + itCompanies[5] + ', ' + itCompanies[6] + ' y ' + itCompanies[7] + 'son grandes empresas IT ')
+// Nivel 01 ej 12 Imprime el array como una oración:
+// Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon son grandes empresas de TI.
+console.log(itCompanies[0] + ', ' + itCompanies[1] + ', ' + itCompanies[2] + ', ' + itCompanies[3] + ', ' + itCompanies[4] + ', ' + itCompanies[5] + ', ' + itCompanies[6] + ' y ' + itCompanies[7] + 'son grandes empresas IT ')
 
 // // Nivel 01 ej 13 Compruebe si existe una determinada empresa en el array itCompanies.
 // // Si existe, retorna la empresa; de lo contrario, retorna la empresa no existe
